@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-image: linear-gradient(89deg, #faf0dc, #6cace49e );
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: inset 0px 0px 3px 2px rgb(0 0 0 / 8%);
+}
+.divImg, .sobre, .footer {
+    margin-bottom: 20px;
+}
+.divImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divImg img {
+    width: 65%;
+    height: auto;
+}
+.sobre h2 {
+    margin-top: 40px;
+    margin-top: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.sobre p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+}
