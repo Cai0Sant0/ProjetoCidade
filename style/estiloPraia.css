@@ -31,12 +31,18 @@ body {
     height: auto;
 }
 .sobre h2 {
-    margin-top: 40px;
-    margin-top: 0;
+    margin: 3px 0px 12px 0px;
+    text-align: center;
     font-family: 'Roboto',sans-serif;
 }
 
 .sobre p{
     font-family: 'Poppins',sans-serif;
     font-size: 15px;
+}
+
+.sobre ul{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
 }
